@@ -1,5 +1,13 @@
-#!/bin/sh
+#!bin/sh
 
-echo "What is your name?"
-read PERSON
-echo "Hello, $PERSON"
+pwd
+ls
+
+echo "What is your Name?"
+read person
+echo "Hello "$person
+
+NAME="Joshika"
+readonly NAME
+NAME="Netha"
+echo $NAME
