@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 
 echo $$  # gives process ID 
 
@@ -22,3 +22,4 @@ echo "Second Parameter : $2"
 echo "Quoted Values: $@"
 echo "Quoted Values: $*"
 echo "Total Number of Parameters : $#"
+

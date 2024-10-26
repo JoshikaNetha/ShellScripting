@@ -1,4 +1,4 @@
-#!bin/sh
+#!/bin/sh
 
 NAME="Variable"
 readonly NAME
@@ -9,7 +9,3 @@ echo $NAME
 
 unset NAME  # we can't unset if it is readonly
 echo $NAME
-
-echo $$ // gives process ID 
-
-echo $0 
